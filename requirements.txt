@@ -1,0 +1,16 @@
+# processing basic dataframe
+polars==1.4.1 # superior than pandas in processing medium data files (multi-threaded)
+fastexcel==0.11.5 # polars require for reading excel files
+pyarrow==17.0.0 # help save polars dataframe to files
+
+numpy==2.0.1
+pandas==2.2.2
+
+# feature engineering automation
+tsfresh==0.20.3 # there might be some performance bottleneck when processing dataframe (unexpected frozen runtime)
+setuptools==72.1.0 # required by tsfresh, but not installed when tsfresh installed
+
+tsflex==0.4.0
+
+# holidays info
+holidays==0.54
