@@ -12,5 +12,8 @@ setuptools==72.1.0 # required by tsfresh, but not installed when tsfresh install
 
 tsflex==0.4.0
 
+# automate time series modelling and addition feature engineering
+skforecast==0.13.0
+
 # holidays info
 holidays==0.54
